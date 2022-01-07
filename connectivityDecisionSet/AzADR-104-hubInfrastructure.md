@@ -1,11 +1,11 @@
 # Architecture Design Record for Hub Infrastructure
-
+<!-- Fill in all code blocked items - example: `J. Doe` -->
 * AzADR-104
 * Status: {reviewing | accepted | adopted | deprecated } <!-- Status of the decision.  Make the selected option bold -->
 * Deciders:
-  * **Decision Owner**: _____<!-- Team members who are accountable for this decision -->
-  * **Architecture and Engineering**: _____<!-- Technical team members who contributed to the decision -->
-* Date:  YYYY-MM-DD <!-- {YYYY-MM-DD when the decision was last updated} -->
+  * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
+  * **Architecture and Engineering**: `J. Doe`<!-- Technical team members who contributed to the decision -->
+* Date:  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
 
 **Reason for Decision**: Azure provides multiple ways to provide for hub infrastructure, which provides a set of networking services to allow for traffic between virtual networks, and between Azure and on-prem networks.  It is important to understand the differences and to select one which aligns with your strategy.
 
@@ -13,7 +13,7 @@
 
 Enterprise-scale identifies two primary sets of hub infrastructure:
 
-* **Azure Virtual WAN** which allows for Microsoft managed hub Infrastructure...
+* **Azure Virtual WAN** which allows for Microsoft managed hub Infrastructure that scales for multiple VPN tunnels and branches, as well as cross regional functionality.  The hub can be deployed in a secure fashion with integrated Azure firewalls or select third party appliances ...
 * **Azure Virtual Networks in a Hub and Spoke configuration** which allows for...
 
 In addition, an organization may have a driver for having a connectivity model that needs to leverage both of these technologies.
@@ -44,17 +44,10 @@ Which set of services is right for you depends on a variety of factors:
     * [ ] Enables branch to branch traversal through hub
     * [ ] Enables region to region traversal through hub
   * Limitations
-    * [ ] Third party virtual network appliances (NVAs) have limited integration with the hub; only specific vendors can be deployed out as part of a secure hub
-    * [ ] Individual site to site VPN tunnels are capped at 1Gbps
+    * [ ] Third party virtual network appliances (NVAs) have limited integration with the hub; only specific vendors can be deployed out as part of a secure hub (*Azure Firewalls can be deployed as part of the hub*)
+    * [ ] **Using secure hub prevents branch to branch and hub to hub routing**
+    * [ ] Individual site to site VPN tunnels are capped at 1 Gbps
     * [ ] Virtual network gateways are not able to be created in spokes of a Virtual WAN hub
-    * [ ] May not support all complex routing scenarios
-
-
-| Stage      | Time to complete  | Current Status | Finished                       | 
-|------------|---------------|----------------|------------------------------------|
-| Development| 2 days    | Work in progress | <ul><li>- [x] completed</li><li>- [ ] todo</li></ul>
-| QA     |3 days |  Work in progress | <ul><li>[x] done</li><li>[ ] tobedone</li></ul>
-
 
 * [ ] **Azure Virtual Networks in a Hub and Spoke Configuration**
   * Features
@@ -62,12 +55,11 @@ Which set of services is right for you depends on a variety of factors:
     * [ ] We wish to be able to configure complex routing in each spoke virtual network
     * [ ] We wish to either manually manage, or use our own automation, for spoke management
     * [ ] We need to use a third-party NVA and cannot use the third party NVA patterns in Azure Virtual WAN
-    * [ ] We need less than 20-Gbps of aggregate throughput in our hub
+    * [ ] We need less than 20 Gbps of aggregate throughput in our hub
     * [ ] We wish to use a large-scale VPN (>30 tunnels)
     * [ ] We do not need frequent multi-region traffic
   * Limitations
     * >30 tunnels
-
 
 * [ ] **Azure Virtual Networks in Mesh Configuration**
   * [ ] We wish to have greater control over the resources in the hub
@@ -97,6 +89,8 @@ Which set of services is right for you depends on a variety of factors:
 
 ## Links <!-- optional -->
 
-* Reference to [VWAN Global Transit Network Architecture](https://docs.microsoft.com/en-us/azure/virtual-wan/virtual-wan-global-transit-network-architecture)
-* Reference to [Hub-Spoke VWAN Architecture](https://docs.microsoft.com/en-us/azure/architecture/networking/hub-spoke-vwan-architecture)
-* Reference for how to [Migrate to Azure Virtual WAN](https://docs.microsoft.com/en-us/azure/virtual-wan/migrate-from-hub-spoke-topology)
+* Reference to [VWAN Global Transit Network Architecture](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-global-transit-network-architecture)
+* Reference to [Hub-Spoke VWAN Architecture](https://docs.microsoft.com/azure/architecture/networking/hub-spoke-vwan-architecture)
+* Reference for how to [Migrate to Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/migrate-from-hub-spoke-topology)
+
+[Test][ducksearch]
