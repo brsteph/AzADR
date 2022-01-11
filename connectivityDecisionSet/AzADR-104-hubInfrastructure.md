@@ -45,7 +45,7 @@ Core solutions are architectures, patterns, and services that are most often use
 
 ☑️ - Indicates a situational advantage
 
-| Feature | Azure Virtual Wan (Virtual Hub) | Azure Virtual Networks <br> (Hub and Spoke)|
+| Feature | Azure Virtual Wan (Virtual Hub) | Azure Virtual Networks (Hub and Spoke)|
 |-|-|-|
 | Management Overhead| ✅ Lower | Greater
 | Automation of Spoke Deployment (including Routes) | ✅ Yes | No (Custom only) |
@@ -55,7 +55,7 @@ Core solutions are architectures, patterns, and services that are most often use
 | Hub VPN Throughput | ✅ 20 Gbps | 10 Gbps |
 | Site to Site VPN Connections | ✅ Up to 1,000 | Up to 100 (Varies by Sku) |
 | Point to Site VPN Connections | ✅ Up to 10,000 | ✅ Up to 10,000 |
-| Third Party NVA Integration | Zscaler, <br> Checkpoint,  <br>and iboss only | ✅ Any VM based NVA |
+| Third Party NVA Integration | Limited to specific partners (Zscaler, Checkpoint,  and iboss) | ✅ Any VM based NVA |
 
 * [ ] **Azure Virtual WAN**
   * Features
@@ -109,6 +109,7 @@ Complex solutions are architectures, patterns, and services that are used rarely
   <!-- Detail your specific requirements here -->
 
 ## Notes on Decision <!-- optional -->
+
 `` Any specific notes ``
 <!-- Add any additional notes needed here -->
 
