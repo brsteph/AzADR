@@ -1,6 +1,6 @@
-# Architecture Design Record for Hub Infrastructure
+# Architecture Design Record for VWan vs. Virtual Network Deployment
 <!-- Fill in all code blocked items - example: `J. Doe` -->
-* AzADR-104
+* esADR-103
 * Status: {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
 * Deciders:
   * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
