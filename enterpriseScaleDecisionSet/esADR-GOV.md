@@ -1,11 +1,18 @@
 # Architecture Design Record for Government vs. Retail Cloud
 <!-- Fill in all code blocked items - example: `J. Doe` -->
-* esADR-100
+* esADR-104
 * Status: {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
 * Deciders:
   * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
   * **Architecture and Engineering**: `J. Doe`<!-- Technical team members who contributed to the decision -->
 * Date:  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
+
+Decision record content to add later:
+<!-- | Enterprise-scale for Azure Government | Includes all options in a converged experience for Azure Government Cloud only | AzureGov | -->
+
+<!-- | esADR-GOV | "Should we deploy to the Azure Government Cloud?" | We need to deploy in the government cloud **OR** We do not need to deploy in the government cloud | -->
+
+<!-- * [ ] Enterprise-scale for Azure Government -->
 
 **Reason for Decision**: Azure provides ...
 
