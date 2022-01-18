@@ -35,7 +35,7 @@ While detailed more fully in the [reference implementation templates](https://do
 | - | - | - |
 | [esADR-101](./esADR-101.md) | "Should we deploy shared connectivity and identity resources?" | We need connectivity and/or identity resources **OR** We do not need neither connectivity nor identity resources |
 | [esADR-102](./esADR-102) | "Should we use Azure VWAN or Azure Virtual Networks for our connectivity resources?" | We need to use Azure VWAN Hubs **OR** We need to use Azure Virtual Network Hubs **OR** We need to use Azure VWAN and Azure Virtual Network Hubs **OR** We do not need connectivity resources (*see esADR-101*) |
-| [esADR-103](./esADR-103) | "Should we separate our management, connectivity, and identity subscriptions?" | We need to separate our management, connectivity, and identity subscriptions **OR** We need to not separate our management, connectivity, and identity subscriptions **OR** We do not need connectivity and identity resources (*see esADR-101*) *OR** We are using Azure Virtual Wan (*see esADR-102*) |
+| [esADR-103](./esADR-103) | "Should we separate our management, connectivity, and identity subscriptions?" | We need to separate our management, connectivity, and identity subscriptions **OR** We need to not separate our management, connectivity, and identity subscriptions **OR** We do not need connectivity and identity resources (*see esADR-101*) **OR** We are using Azure Virtual Wan (*see esADR-102*) |
 
 ### Evaluation and Selection
 

@@ -94,23 +94,6 @@ Core solutions are architectures, patterns, and services that are most often use
     * [ ] Less than 20 Gbps of aggregate throughput through hub
     * [ ] Baseline security managed by customer; higher security risk to design
 
-<!-- ### Complex Solutions
-
-Complex solutions are architectures, patterns, and services that are used rarely, based on specific needs.  They are most often used when standard solutions are not appropriate, and tend to contain multiple services integrated together.  They tend to have a higher administrative overhead, and more potential failure points.  *These should be used only if requirements preclude the use of Core Solutions*
-
-* [ ] **Azure Virtual WAN with Indirect Spokes**
-  * [ ] We wish to have greater control over the resources in the hub
-  * [ ] We wish to be able to configure complex routing in each spoke virtual network
-  * [ ] We wish to either manually manage, or use our own automation, for spoke management
-  * [ ] We need to use a third-party NVA and cannot use the third party NVA patterns in Azure Virtual WAN
-  * [ ] We need to have 20-Gbps of aggregate throughput in our hub
-  * [ ] We wish to have a large-scale VPN (>30 tunnels)
-  * [ ] We need to ...
-
-* [ ] **Azure Virtual WAN with Azure Virtual Networks with Network Resource Spokes** -->
-
-  <!-- Detail your specific requirements here -->
-
 ## Notes on Decision <!-- optional -->
 
 `` Any specific notes ``
