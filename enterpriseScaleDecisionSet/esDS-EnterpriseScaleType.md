@@ -1,11 +1,11 @@
 # Decision Set for Enterprise Scale Deployments
 <!-- Fill in all code blocked items - example: `J. Doe` -->
-* esDS
-* Status: {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
-* Deciders:
+* *esDS*
+* **Status:** {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
+*** Deciders:**
   * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
   * **Architecture and Engineering**: `J. Doe`<!-- Technical team members who contributed to the decision -->
-* Date:  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
+* **Date:**  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
 
 **Reason for Decision Set**: As Part of Microsoft's Cloud Adoption Framework, tools are given to enable customers to [Start with enterprise scale](https://docs.microsoft.com//azure/cloud-adoption-framework/ready/enterprise-scale/).  This approach provides design principles and tools for the deployment of enterprise-scale landing zones.  
 
@@ -25,7 +25,7 @@ While detailed more fully in the [reference implementation templates](https://do
 | - | - | - |
 | Enterprise-scale foundation | Management group and subscription structure, workload Landing Zones, and shared management resources | Wingtip |
 | Enterprise-scale hub and spoke | Management group and subscription structure, a connectivity hub virtual network with Azure network appliances, workload Landing Zones, and shared management resources | Adventureworks |
-| Enterprise-scale Virtual WAN | Management group and subscription structure, a virtual WAN and virtual hub with Azure network appliances, workload Landing Zones, and shared management resources | Contoso|
+| Enterprise-scale Virtual WAN | Management group and subscription structure, a virtual WAN and virtual hub with Azure network appliances, workload Landing Zones, and shared management resources | Contoso |
 | Enterprise-scale for small enterprises | Simplified management group and subscription structure, a connectivity hub virtual network with Azure network appliances, workload Landing Zones, and shared management resources | TreyResearch |
 
 ### Decisions
@@ -68,4 +68,9 @@ While detailed more fully in the [reference implementation templates](https://do
 
 ## Links
 
-`Add any additional notes here`
+[Start with enterprise scale](https://docs.microsoft.com//azure/cloud-adoption-framework/ready/enterprise-scale/)
+[Landing zone reference implementation templates](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/implementation#reference-implementation)
+[Intro to architectural decision records](https://adr.github.io/)
+[Enterprise-scale repository](https://github.com/Azure/Enterprise-Scale)
+
+`Add any additional links here`

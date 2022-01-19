@@ -1,11 +1,11 @@
 # Architecture Design Record for VWan vs. Virtual Network Deployment
 <!-- Fill in all code blocked items - example: `J. Doe` -->
-* esADR-103
-* Status: {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
-* Deciders:
+* *esADR-102*
+* **Status:** {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
+*** Deciders:**
   * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
   * **Architecture and Engineering**: `J. Doe`<!-- Technical team members who contributed to the decision -->
-* Date:  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
+* **Date:**  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
 
 **Reason for Decision**: Azure provides multiple ways to provide for hub infrastructure, which provides a set of networking services to allow for traffic between virtual networks, and between Azure and on-prem networks.  It is important to understand the differences and to select one which aligns with your strategy.
 
@@ -94,13 +94,14 @@ Core solutions are architectures, patterns, and services that are most often use
     * [ ] Less than 20 Gbps of aggregate throughput through hub
     * [ ] Baseline security managed by customer; higher security risk to design
 
-## Notes on Decision <!-- optional -->
+## Notes on Decision
 
-`` Any specific notes ``
-<!-- Add any additional notes needed here -->
+`` Add any additional notes needed here, or remove this section ``
 
-## Links <!-- optional -->
+## Links
 
 * Reference to [VWAN Global Transit Network Architecture](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-global-transit-network-architecture)
 * Reference to [Hub-Spoke VWAN Architecture](https://docs.microsoft.com/azure/architecture/networking/hub-spoke-vwan-architecture)
 * Reference for how to [Migrate to Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/migrate-from-hub-spoke-topology)
+
+`Add any additional links here`
