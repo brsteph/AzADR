@@ -69,8 +69,11 @@ While detailed more fully in the [reference implementation templates](https://do
 ## Links
 
 [Start with enterprise scale](https://docs.microsoft.com//azure/cloud-adoption-framework/ready/enterprise-scale/)
+
 [Landing zone reference implementation templates](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/implementation#reference-implementation)
+
 [Intro to architectural decision records](https://adr.github.io/)
+
 [Enterprise-scale repository](https://github.com/Azure/Enterprise-Scale)
 
 `Add any additional links here`

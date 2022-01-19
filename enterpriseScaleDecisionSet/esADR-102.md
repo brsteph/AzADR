@@ -100,8 +100,12 @@ Core solutions are architectures, patterns, and services that are most often use
 
 ## Links
 
-* Reference to [VWAN Global Transit Network Architecture](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-global-transit-network-architecture)
-* Reference to [Hub-Spoke VWAN Architecture](https://docs.microsoft.com/azure/architecture/networking/hub-spoke-vwan-architecture)
-* Reference for how to [Migrate to Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/migrate-from-hub-spoke-topology)
+[VWAN Global Transit Network Architecture](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-global-transit-network-architecture)
+
+[Hub-Spoke VWAN Architecture](https://docs.microsoft.com/azure/architecture/networking/hub-spoke-vwan-architecture)
+
+[Migrate to Azure Virtual WAN](https://docs.microsoft.com/azure/virtual-wan/migrate-from-hub-spoke-topology)
+
+[Comparison of Vhubs and Vnets](https://docs.microsoft.com/azure/firewall-manager/vhubs-and-vnets#comparison)
 
 `Add any additional links here`
