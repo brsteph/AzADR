@@ -2,7 +2,7 @@
 <!-- Fill in all code blocked items - example: `J. Doe` -->
 * *esDS*
 * **Status:** {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
-*** Deciders:**
+* ** Deciders:**
   * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
   * **Architecture and Engineering**: `J. Doe`<!-- Technical team members who contributed to the decision -->
 * **Date:**  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
@@ -15,7 +15,7 @@ This decision set is made up of individual decisions, and then this "cover page"
 
 ## Landing Zone Selection
 
-**Note:** *Azure Government* options are **removed** forom consideration for this MVP.
+**Note:** *Azure Government* options are **removed** from consideration for this MVP.
 
 ### Options
 
