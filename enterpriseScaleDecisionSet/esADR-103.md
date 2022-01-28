@@ -2,7 +2,7 @@
 <!-- Fill in all code blocked items - example: `J. Doe` -->
 * *esADR-103*
 * **Status:** {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
-*** Deciders:**
+* **Deciders:**
   * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
   * **Architecture and Engineering**: `J. Doe`<!-- Technical team members who contributed to the decision -->
 * **Date:**  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->

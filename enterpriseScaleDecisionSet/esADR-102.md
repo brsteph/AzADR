@@ -31,15 +31,8 @@ Which set of services is right for you depends on a variety of factors:
   * Volume of connections should be considered
   * Necessary speed and bandwidth should be considered
 * Routing scenarios
-<!-- these decisions will be covered in AzADR-101 - 103 -->
 
-## Evaluation and Selection
-
-<!-- For each [ ] instance, convert it to a [x] to mark if it is of interest; this "checks" the box when viewed.  Features should be checked if the feature is needed or desireable; Limitations should be checked if they prevent desired outcomes or are otherwise undesirable.  While each Feature or Limit may matter differently, by understanding which items are important will help you make your decision. -->
-
-### Core Solutions
-
-Core solutions are architectures, patterns, and services that are most often used.  They tend to be more streamlined than complex solutions, but still work for the majority of use cases.  They tend to be easier to support due to having viewer failure points, and their more scalable and simple design leads to reduced management overhead.
+### High Level Comparison
 
 ✅ - Indicates a clear advantage
 
@@ -59,6 +52,10 @@ Core solutions are architectures, patterns, and services that are most often use
 | DDoS Protection Standard Support | Spoke Only | ✅ Spoke and Hub |
 
 [Comparison of Vhubs and Vnets](https://docs.microsoft.com/azure/firewall-manager/vhubs-and-vnets#comparison)
+
+## Evaluation and Selection
+
+<!-- For each [ ] instance, convert it to a [x] to mark if it is of interest; this "checks" the box when viewed.  Features should be checked if the feature is needed or desireable; Limitations should be checked if they prevent desired outcomes or are otherwise undesirable.  While each Feature or Limit may matter differently, by understanding which items are important will help you make your decision. -->
 
 * [ ] **Azure Virtual WAN**
   * Features
