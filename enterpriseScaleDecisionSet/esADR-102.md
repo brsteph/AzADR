@@ -22,7 +22,7 @@ In addition, an organization may have a driver for having a connectivity model t
 
 Further, an organization may have custom solutions made up of third-party solutions for core Hub Infrastructure.  These patterns need to be driven by specific detailed requirements for performance, integration, and management, and follow the vendor patterns for deployment.
 
-This decision is for the technologies to support the deployment of hubs.  An additional description about how many hubs to have is based on deployment regions, and having multiple hubs for different environments is covered in azADR-105: [Hub Isolation](.\AzADR-105-hubIsolation.md)
+This decision is for the technologies to support the deployment of hubs.  An additional description about how many hubs to have is based on deployment regions, and having multiple hubs for different environments is covered in azADR-105: [Hub Isolation](../connectivityDecisionSet/AzADR-105-hubIsolation.md)
 
 ## Decision Drivers
 
