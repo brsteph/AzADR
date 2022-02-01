@@ -3,8 +3,8 @@
 * *esADR-GOV*
 * **Status:** {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
 *** Deciders:**
-  * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
-  * **Architecture and Engineering**: `J. Doe`<!-- Technical team members who contributed to the decision -->
+  * **Decision Owner**: `J. Doe` <!-- Team members who are accountable for this decision -->
+  * **Architecture and Engineering**: `J. Doe` <!-- Technical team members who contributed to the decision -->
 * **Date:**  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
 
 Decision record content to add later:

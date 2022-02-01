@@ -3,13 +3,15 @@
 * *esADR-102*
 * **Status:** {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
 * **Deciders:**
-  * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
-  * **Architecture and Engineering**: `J. Doe`<!-- Technical team members who contributed to the decision -->
+  * **Decision Owner**: `J. Doe` <!-- Team members who are accountable for this decision -->
+  * **Architecture and Engineering**: `J. Doe` <!-- Technical team members who contributed to the decision -->
 * **Date:**  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
 
-**Reason for Decision**: Azure provides multiple ways to provide for hub infrastructure, which provides a set of networking services to allow for traffic between virtual networks, and between Azure and on-prem networks.  It is important to understand the differences and to select one which aligns with your strategy.
-
 ## Overview
+
+*In the previous decision record, you decided that your organization needed a set of shared connectivity services, in addition to the management services.*
+
+Azure provides multiple ways to provide for shared connectivity services in a hub fashion, which provides a set of networking services to allow for traffic between virtual networks, and between Azure and on-prem networks.  It is important to understand the differences and to select one which aligns with your strategy.
 
 Enterprise-scale identifies two primary sets of hub infrastructure:
 

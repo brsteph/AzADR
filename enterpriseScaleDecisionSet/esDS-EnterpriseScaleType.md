@@ -3,8 +3,8 @@
 * *esDS*
 * **Status:** {``reviewing | accepted | adopted | deprecated`` } <!-- Status of the decision -->
 * **Deciders:**
-  * **Decision Owner**: `J. Doe`<!-- Team members who are accountable for this decision -->
-  * **Architecture and Engineering**: `J. Doe`<!-- Technical team members who contributed to the decision -->
+  * **Decision Owner**: `J. Doe` <!-- Team members who are accountable for this decision -->
+  * **Architecture and Engineering**: `J. Doe` <!-- Technical team members who contributed to the decision -->
 * **Date:**  `YYYY-MM-DD` <!-- {YYYY-MM-DD when the decision was last updated} -->
 
 **Reason for Decision Set**: As Part of Microsoft's Cloud Adoption Framework, tools are given to enable customers to [Start with enterprise scale](https://docs.microsoft.com//azure/cloud-adoption-framework/ready/enterprise-scale/).  This approach provides design principles and tools for the deployment of enterprise-scale landing zones.  
@@ -31,6 +31,8 @@ While detailed more fully in the [reference implementation templates](https://do
 ### Decisions
 
 <!-- For each decision option in the column, select which one applies to your individual decisions, or create a new entry as appropriate to capture your decision if you came to a conclusion -->
+<!-- Some selections have down stream impact; review the ones oted with references as part of preparing to answer the questions-->
+
 | Architecture Decision Record | Topic | Decision |
 | - | - | - |
 | [esADR-101](./esADR-101.md) | "Should we deploy shared connectivity and identity resources?" | We need connectivity and/or identity resources **OR** We do not need neither connectivity nor identity resources |
