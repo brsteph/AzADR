@@ -4,7 +4,6 @@
 
 [Decision Set: Select an Enterprise Scale Landing Zone Reference Architecture](./enterpriseScaleDecisionSet/esDS-EnterpriseScaleType.md)
 
-
 ## What is the AzADR Toolkit?
 
 The AzADR toolkit is a repository of standard architecture decision records for common Azure decisions. By providing templates with many considerations already populated, users of this repository can be guided through complex decisions.
@@ -40,7 +39,7 @@ The decision records in this toolkit are organized into decision sets.
 
 A decision set is a broad topic or matter that will require several decisions to be answered in order to conclusively resolve.  Topics like "Security for PCI workloads" or "Strategy for scalable compute" would be decision sets.
 
-Each decision set then contains one or more architecture decision records; the actual ADRs in the toolkit.  These cover well defined requirements, needs, or challenges, and can be answered individually.  For example, for the decision set of "Strategy for scalable compute," you might have an ADR for "Kubernetes vs. App Services" that will detail out the comparible strengths and weakness of customer managed Kubernetes clusters, Azure Kubernetes Services, Azure web apps, and Azure functions.
+Each decision set then contains one or more architecture decision records; the actual ADRs in the toolkit.  These cover well defined requirements, needs, or challenges, and can be answered individually.  For example, for the decision set of "Strategy for scalable compute," you might have an ADR for "Kubernetes vs. App Services" that will detail out the comparable strengths and weakness of customer managed Kubernetes clusters, Azure Kubernetes Services, Azure web apps, and Azure functions.
 
 By answering the individual decision records and coming to a conclusion in the ADRs, the bigger matter can be answered.  As a result, Decision Sets contain summaries of their child decisions, to act as a roll up.
 
