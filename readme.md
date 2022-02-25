@@ -49,3 +49,5 @@ By answering the individual decision records and coming to a conclusion in the A
 * Identify which decision sets you are concerned with
 * Customize the decision sets with your notes and selections
 * Begin detailed architecture and build
+
+You can also use the [generic AzADR template](AzADR-000-template.md) to make your own ADRs based on your needs.
