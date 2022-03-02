@@ -63,8 +63,8 @@ Which set of services is right for you depends on a variety of factors:
   * Features & Benefits
     * [ ] Reduced management of hub resources; Microsoft managed the infrastructure
     * [ ] Automation of spoke setup and configuration, such as publishing routes to the spokes
-    * [ ] 20-Gbps of aggregate throughput in our hub
-    * [ ] Supports large scale VPN implementations (Up to 1,000 branch connections per Virtual Hub) - individual tunnels for site to site VPN are still capped at 1GBps
+    * [ ] 20-Gbps of aggregate throughput in our hub - **High Importance**
+    * [ ] Supports large scale VPN implementations (Up to 1,000 branch connections per Virtual Hub) - individual tunnels for site to site VPN are still capped at 1GBps - **High Importance**
     * [ ] Allows for the deployment of Azure Firewall as part of a secure hub deployment
     * [ ] Allows for the deployment of the following Security-as-a-Service partner products:
     * Zscaler
@@ -72,18 +72,19 @@ Which set of services is right for you depends on a variety of factors:
     * iboss
     * [ ] Enables branch to branch traversal through hub
     * [ ] Enables region to region traversal through hub
-    * [ ] Baseline security enabled by default
+    * [ ] Baseline security able to be enabled on spokes, regardless of spoke configuration
   * Limitations & Consequences
-    * [ ] Other third-party NVAs are not able to be deployed in to the Hub
+    * [ ] Baseline security able to be enabled on spokes, regardless of spoke configuration
+    * [ ] Other third-party NVAs are not able to be deployed in to the Hub - 
     * [ ] Using a secure hub prevents branch to branch and hub to hub routing
     * [ ] Individual site to site VPN tunnels are capped at 1 Gbps
-    * [ ] Virtual network gateways are not able to be created in spokes of a Virtual WAN hub; network gateways can only be deployed in the hub
+    * [ ] Virtual network gateways are not able to be created in spokes of a Virtual WAN hub; network gateways can only be deployed in the hub - **Low Importance**
 
 * [ ] **Azure Virtual Networks in a Hub and Spoke Configuration**
   * Features & Benefits
-    * [ ] Greater control over hub; able to place multiple VM-based services in to the hub
+    * [ ] Greater control over hub; able to place multiple VM-based services in to the hub - **High Importance**
     * [ ] Ability to deploy more complex routing scenarios
-    * [ ] Ability to use third party network virtual appliances in the hub
+    * [ ] Ability to use third party network virtual appliances in the hub - **High Importance**
     * [ ] Ability to support custom routing scenarios through multiple virtual appliances
   * Limitations & Consequences
     * [ ] Customer managed hub infrastructure, resulting in more management

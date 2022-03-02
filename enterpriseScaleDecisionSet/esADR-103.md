@@ -35,19 +35,19 @@ Items marked with **Low Importance** are worth keeping in mind, but often are no
 
 * [ ] **Use seperate subscriptions for Management, Connectivity, and Identity**
   * Features & Benefits
-    * [ ] Allows for the deployment of RBAC at the subscription level for roles involved in these topics
-    * [ ] Allows for easier management of fine grained access and sub-roles, such as network administrators who can manage firewall services vs. network operators who can manage VPN/Gateway services
+    * [ ] Allows for the deployment of RBAC at the subscription level for roles involved in these topics - **High Importance**
+    * [ ] Allows for easier management of fine grained access and sub-roles, such as network administrators who can manage firewall services vs. network operators who can manage VPN/Gateway services - **High Importance**
     * [ ] Allows for better scaling and adding of resources
   * Limitations & Consequences
     * [ ] Additional administrative effort to manage the subscriptions
-    * [ ] If the same users are getting similar roles in all subscriptions, it can create redundant access that can further increase the difficulty in managing.
+    * [ ] If the same users are getting similar roles in all subscriptions, it can create redundant access that can further increase the difficulty in managing - **Low Importance**
 
 * [ ] **Use one subscription for Management, Connectivity, and Identity**
   * Features & Benefits
     * [ ] Allows for a quicker start, as there are less permissions that need to be assigned.
-    * [ ] Allows for one team to be assigned broad permissions without separation of duties
+    * [ ] Allows for one team to be assigned broad permissions without separation of duties - **High Importance**
   * Limitations & Consequences
-    * [ ] Limits the ability to seperate access between team members
+    * [ ] Limits the ability to seperate access between team members - **High Importance**
     * [ ] As teams, roles, and responsibilities grow, will require upgrade to expand out to multiple subscriptions to allow for fine grained access controls
     * [ ] Scaling for additional resources can be more complex
 
