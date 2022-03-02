@@ -28,18 +28,22 @@ Which set of services is right for you depends on a variety of factors:
 
 <!-- For each [ ] instance, convert it to a [x] to mark if it is of interest; this "checks" the box when viewed.  Features should be checked if the feature is needed or desireable; Limitations should be checked if they prevent desired outcomes or are otherwise undesirable.  While each Feature or Limit may matter differently, by understanding which items are important will help you make your decision. -->
 
+Items marked with **High Importance** are often of critical import for an organization, and should be given significant weight in the comparison.  Effectively, they mark items that should be thought of in a *must* or *should* level of criticality.
+
+Items marked with **Low Importance** are worth keeping in mind, but often are not critical to the decision process.  While they have an impact to the over all decision, by themself they are not often important enough to lead to one option than the other.  Effectively, they mark items that are *nice to have* or *could* be useful.
+
 ### Core Solutions
 
 * [ ] **Option**
-  * Features
+  * Features & Benefits
     * [ ] Feature
-  * Limitations
+  * Limitations & Consequences
     * [ ] Limitation
 
 * [ ] **Option**
-  * Features
+  * Features & Benefits
     * [ ] Feature
-  * Limitations
+  * Limitations & Consequences
     * [ ] Limitation
 
 <!-- ### Complex Solutions

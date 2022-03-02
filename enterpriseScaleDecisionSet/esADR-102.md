@@ -60,7 +60,7 @@ Which set of services is right for you depends on a variety of factors:
 <!-- For each [ ] instance, convert it to a [x] to mark if it is of interest; this "checks" the box when viewed.  Features should be checked if the feature is needed or desireable; Limitations should be checked if they prevent desired outcomes or are otherwise undesirable.  While each Feature or Limit may matter differently, by understanding which items are important will help you make your decision. -->
 
 * [ ] **Azure Virtual WAN**
-  * Features
+  * Features & Benefits
     * [ ] Reduced management of hub resources; Microsoft managed the infrastructure
     * [ ] Automation of spoke setup and configuration, such as publishing routes to the spokes
     * [ ] 20-Gbps of aggregate throughput in our hub
@@ -73,19 +73,19 @@ Which set of services is right for you depends on a variety of factors:
     * [ ] Enables branch to branch traversal through hub
     * [ ] Enables region to region traversal through hub
     * [ ] Baseline security enabled by default
-  * Limitations
+  * Limitations & Consequences
     * [ ] Other third-party NVAs are not able to be deployed in to the Hub
     * [ ] Using a secure hub prevents branch to branch and hub to hub routing
     * [ ] Individual site to site VPN tunnels are capped at 1 Gbps
     * [ ] Virtual network gateways are not able to be created in spokes of a Virtual WAN hub; network gateways can only be deployed in the hub
 
 * [ ] **Azure Virtual Networks in a Hub and Spoke Configuration**
-  * Features
+  * Features & Benefits
     * [ ] Greater control over hub; able to place multiple VM-based services in to the hub
     * [ ] Ability to deploy more complex routing scenarios
     * [ ] Ability to use third party network virtual appliances in the hub
     * [ ] Ability to support custom routing scenarios through multiple virtual appliances
-  * Limitations
+  * Limitations & Consequences
     * [ ] Customer managed hub infrastructure, resulting in more management
     * [ ] Spokes must be manually managed, or use separate automation; this includes routing information
     * [ ] The hub can support, in general, 30 tunnels without needing for more complex deployments
