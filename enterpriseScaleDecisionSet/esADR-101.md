@@ -48,14 +48,14 @@ In general, the use of connectivity shared services is the default.  While the b
 
 * [ ] **Use Connectivity Shared Services**
   * Features & Benefits
-    * [ ] Grants the ability to more clearly assign RBAC permissions to networking resources
     * [ ] Allows for a central hub of networking connectivity (network virtual appliances, firewalls, and VPN/ExpressRoute connectivity) that can be used by workloads in different virtual networks - **High Importance**
     * [ ] Allows for better auditing and change processes  of networking security controls - **High Importance**
-    * [ ] More cost effective than deploying individual instances of network security tools
     * [ ] Allows you to scale effectively as you add workload landing zones and additional resources - **High Importance**
+    * [ ] Grants the ability to more clearly assign RBAC permissions to networking resources
+    * [ ] More cost effective than deploying individual instances of network security tools
   * Limitations & Consequences
-    * [ ] Additional cost for traffic that uses the shared connectivity services; in most organizations this cost is negligible compared to the cost of multiple network security tools, but for workloads moving very large amounts of data, it should be investigated for awareness - **Low Importance**
     * [ ] Seperate virtual networking tools need to be deployed in each workload - **High Importance**
+    * [ ] Additional cost for traffic that uses the shared connectivity services; in most organizations this cost is negligible compared to the cost of multiple network security tools, but for workloads moving very large amounts of data, it should be investigated for awareness - **Low Importance**
 
 * [ ] **Do not use Connectivity Shared Services, and instead locate them with the workload**
   * Features & Benefits
@@ -76,15 +76,15 @@ In general, the use of identity shared services is the default when you have one
 Organizations who do not have identity shared services in Azure are generally working with PaaS services, or other design patterns which leverage others services for secrets and identity (such as workload specific key vaults and Azure AD).
 
 * [ ] **Use Identity Shared Services**
-  * Features and Benefits
-    * [ ] Grants the ability to extend your Active Directory environment in to an Azure region
+  * Features & Benefits
+    * [ ] Grants the ability to extend your Active Directory environment in to an Azure region - **High Importance**
     * [ ] Reduces number of VMs and other resources needed to provide identity services in workload landing zones
     * [ ] Provides an Active Directory domain for VM resources to join
 
 * [ ] **Do not use Identity Shared Services**
   * Limitations & Consequences
-    * [ ] Virtual machine based workloads will need to have identity addressed through another solution (which can include workload specific solutions)
-    * [ ] Migrated virtual machines will need to have domain controllers in their local virtual networks if needed
+    * [ ] Virtual machine based workloads will need to have identity addressed through another solution (which can include workload specific solutions) - **High Importance**
+    * [ ] Migrated virtual machines will need to have domain controllers in their local virtual networks if needed - **High Importance**
 
 ## Notes on Decision
 

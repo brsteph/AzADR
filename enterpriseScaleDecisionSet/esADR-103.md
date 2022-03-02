@@ -44,8 +44,8 @@ Items marked with **Low Importance** are worth keeping in mind, but often are no
 
 * [ ] **Use one subscription for Management, Connectivity, and Identity**
   * Features & Benefits
-    * [ ] Allows for a quicker start, as there are less permissions that need to be assigned.
     * [ ] Allows for one team to be assigned broad permissions without separation of duties - **High Importance**
+    * [ ] Allows for a quicker start, as there are less permissions that need to be assigned.
   * Limitations & Consequences
     * [ ] Limits the ability to seperate access between team members - **High Importance**
     * [ ] As teams, roles, and responsibilities grow, will require upgrade to expand out to multiple subscriptions to allow for fine grained access controls
