@@ -4,6 +4,10 @@
 
 [Decision Set: Select an Enterprise Scale Landing Zone Reference Architecture](./enterpriseScaleDecisionSet/esDS-EnterpriseScaleType.md)
 
+## Other Documents
+
+[Cloud Adoption Framework - Functions & Roles Assignment](rolesRecord.md)
+
 ## What is the AzADR Toolkit?
 
 The AzADR toolkit is a repository of standard architecture decision records for common Azure decisions. By providing templates with many considerations already populated, users of this repository can be guided through complex decisions.
