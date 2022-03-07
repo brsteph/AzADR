@@ -22,8 +22,6 @@ In addition, an organization may have a driver for having a connectivity model t
 
 Further, an organization may have custom solutions made up of third-party solutions for core Hub Infrastructure.  These patterns need to be driven by specific detailed requirements for performance, integration, and management, and follow the vendor patterns for deployment.
 
-This decision is for the technologies to support the deployment of hubs.  An additional description about how many hubs to have is based on deployment regions, and having multiple hubs for different environments is covered in azADR-105: [Hub Isolation](../connectivityDecisionSet/AzADR-105-hubIsolation.md)
-
 ## Decision Drivers
 
 Which set of services is right for you depends on a variety of factors:
@@ -60,11 +58,11 @@ Which set of services is right for you depends on a variety of factors:
 <!-- For each [ ] instance, convert it to a [x] to mark if it is of interest; this "checks" the box when viewed.  Features should be checked if the feature is needed or desireable; Limitations should be checked if they prevent desired outcomes or are otherwise undesirable.  While each Feature or Limit may matter differently, by understanding which items are important will help you make your decision. -->
 
 * [ ] **Azure Virtual WAN**
-  * Features
+  * Features & Benefits
+    * [ ] 20-Gbps of aggregate throughput in our hub - **High Importance**
+    * [ ] Supports large scale VPN implementations (Up to 1,000 branch connections per Virtual Hub) - individual tunnels for site to site VPN are still capped at 1GBps - **High Importance**
     * [ ] Reduced management of hub resources; Microsoft managed the infrastructure
     * [ ] Automation of spoke setup and configuration, such as publishing routes to the spokes
-    * [ ] 20-Gbps of aggregate throughput in our hub
-    * [ ] Supports large scale VPN implementations (Up to 1,000 branch connections per Virtual Hub) - individual tunnels for site to site VPN are still capped at 1GBps
     * [ ] Allows for the deployment of Azure Firewall as part of a secure hub deployment
     * [ ] Allows for the deployment of the following Security-as-a-Service partner products:
     * Zscaler
@@ -72,25 +70,26 @@ Which set of services is right for you depends on a variety of factors:
     * iboss
     * [ ] Enables branch to branch traversal through hub
     * [ ] Enables region to region traversal through hub
-    * [ ] Baseline security enabled by default
-  * Limitations
-    * [ ] Other third-party NVAs are not able to be deployed in to the Hub
+    * [ ] Baseline security able to be enabled on spokes, regardless of spoke configuration
+  * Limitations & Consequences
+    * [ ] Other third-party NVAs are not able to be deployed in to the Hub - **High Importance**
+    * [ ] Baseline security able to be enabled on spokes, regardless of spoke configuration
     * [ ] Using a secure hub prevents branch to branch and hub to hub routing
     * [ ] Individual site to site VPN tunnels are capped at 1 Gbps
-    * [ ] Virtual network gateways are not able to be created in spokes of a Virtual WAN hub; network gateways can only be deployed in the hub
+    * [ ] Virtual network gateways are not able to be created in spokes of a Virtual WAN hub; network gateways can only be deployed in the hub - **Low Importance**
 
 * [ ] **Azure Virtual Networks in a Hub and Spoke Configuration**
-  * Features
-    * [ ] Greater control over hub; able to place multiple VM-based services in to the hub
+  * Features & Benefits
+    * [ ] Greater control over hub; able to place multiple VM-based services in to the hub - **High Importance**
+    * [ ] Ability to use third party network virtual appliances in the hub - **High Importance**
     * [ ] Ability to deploy more complex routing scenarios
-    * [ ] Ability to use third party network virtual appliances in the hub
     * [ ] Ability to support custom routing scenarios through multiple virtual appliances
-  * Limitations
+  * Limitations & Consequences
+    * [ ] Less than 20 Gbps of aggregate throughput through hub - **High Importance**
+    * [ ] The hub can support, in general, 30 tunnels without needing for more complex deployments - **High Importance**
     * [ ] Customer managed hub infrastructure, resulting in more management
     * [ ] Spokes must be manually managed, or use separate automation; this includes routing information
-    * [ ] The hub can support, in general, 30 tunnels without needing for more complex deployments
     * [ ] More complex management needed for multi-region traffic
-    * [ ] Less than 20 Gbps of aggregate throughput through hub
     * [ ] Baseline security managed by customer; higher security risk to design
 
 ## Notes on Decision

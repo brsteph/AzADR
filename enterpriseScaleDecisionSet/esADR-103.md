@@ -29,21 +29,25 @@ Which topology is right for you depends on various factors, such as:
 
 <!-- For each [ ] instance, convert it to a [x] to mark if it is of interest; this "checks" the box when viewed.  Features should be checked if the feature is needed or desireable; Limitations should be checked if they prevent desired outcomes or are otherwise undesirable.  While each Feature or Limit may matter differently, by understanding which items are important will help you make your decision. -->
 
+Items marked with **High Importance** are often of critical import for an organization, and should be given significant weight in the comparison.  Effectively, they mark items that should be thought of in a *must* or *should* level of criticality.
+
+Items marked with **Low Importance** are worth keeping in mind, but often are not critical to the decision process.  While they have an impact to the over all decision, by themself they are not often important enough to lead to one option than the other.  Effectively, they mark items that are *nice to have* or *could* be useful.
+
 * [ ] **Use seperate subscriptions for Management, Connectivity, and Identity**
-  * Features
-    * [ ] Allows for the deployment of RBAC at the subscription level for roles involved in these topics
-    * [ ] Allows for easier management of fine grained access and sub-roles, such as network administrators who can manage firewall services vs. network operators who can manage VPN/Gateway services
+  * Features & Benefits
+    * [ ] Allows for the deployment of RBAC at the subscription level for roles involved in these topics - **High Importance**
+    * [ ] Allows for easier management of fine grained access and sub-roles, such as network administrators who can manage firewall services vs. network operators who can manage VPN/Gateway services - **High Importance**
     * [ ] Allows for better scaling and adding of resources
-  * Limitations
+  * Limitations & Consequences
     * [ ] Additional administrative effort to manage the subscriptions
-    * [ ] If the same users are getting similar roles in all subscriptions, it can create redundant access that can further increase the difficulty in managing.
+    * [ ] If the same users are getting similar roles in all subscriptions, it can create redundant access that can further increase the difficulty in managing - **Low Importance**
 
 * [ ] **Use one subscription for Management, Connectivity, and Identity**
-  * Features
+  * Features & Benefits
+    * [ ] Allows for one team to be assigned broad permissions without separation of duties - **High Importance**
     * [ ] Allows for a quicker start, as there are less permissions that need to be assigned.
-    * [ ] Allows for one team to be assigned broad permissions without separation of duties
-  * Limitations
-    * [ ] Limits the ability to seperate access between team members
+  * Limitations & Consequences
+    * [ ] Limits the ability to seperate access between team members - **High Importance**
     * [ ] As teams, roles, and responsibilities grow, will require upgrade to expand out to multiple subscriptions to allow for fine grained access controls
     * [ ] Scaling for additional resources can be more complex
 
