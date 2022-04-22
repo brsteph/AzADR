@@ -54,7 +54,6 @@ In general, the use of connectivity shared services is the default.  While the b
     * [ ] Grants the ability to more clearly assign RBAC permissions to networking resources
     * [ ] More cost effective than deploying individual instances of network security tools
   * Limitations & Consequences
-    * [ ] Seperate virtual networking tools need to be deployed in each workload - **High Importance**
     * [ ] Additional cost for traffic that uses the shared connectivity services; in most organizations this cost is negligible compared to the cost of multiple network security tools, but for workloads moving very large amounts of data, it should be investigated for awareness - **Low Importance**
 
 * [ ] **Do not use Connectivity Shared Services, and instead locate them with the workload**
